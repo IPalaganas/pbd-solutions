@@ -1,3 +1,5 @@
+//Ito Palaganas 02/15/18
+//I was right about these slashes not printing anything
 public class CommentsAndSlashes {
 	
 	public static void main( String[] args) {
