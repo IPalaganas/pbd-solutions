@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class TwoQuestions {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Let's play a game...");
+        System.out.println("Think of an object and I will predict what it is...");
+        System.out.print("Question 1) Does it belong inside or outside?");
+        String answer1 = input.next();
+        System.out.print("Question 2) Is it a living thing?");
+        String answer2 = input.next();
+        if (answer1.equals("outside") && answer2.equals("yes")); {
+            System.out.println("It's obviously grass.");
+        }  if (answer1.equals("inside") && answer2.equals("yes")); {
+            System.out.println("It's obviously a house cat.");
+        } if (answer1.equals("outside") && answer2.equals("no")); {
+            System.out.println("It's obviously a dead tree");
+        } if (answer1.equals("inside") && answer2.equals("no")); {
+            System.out.println("It's obviously an air conditioner");
+            }
+            }
+}
