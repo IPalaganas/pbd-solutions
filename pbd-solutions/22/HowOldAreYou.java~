@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class ALittleQuiz { 
+    public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    
+    int score = input.nextInt();
+    
+    System.out.print("Are you ready for a quiz?");
+    if ("yes") {
+        System.out.println("Okay lets start!");
+        }
+        
+    System.out.println("Q1) What is the captial of Canada?");
+    System.out.println("    a. Toronto");
+    System.out.println("    b. Ottawa");
+    System.out.print("    c. Manitoba");
+    
+    if ("Toronto") {
+        System.out.println("Correct! Let's continue...")
+        score = 1
+        }
+        else {
+        System.out.println("Incorrect! Let's continue...")
+        score = 0
+        }
+    
+    System.out.println("Q1) Who is the prime minister of Canada?"); 
+    System.out.println("    a. Donald Trump");
+    System.out.println("    b. Queen Elizabeth");
+    System.out.print("    c. Justin Trudeau");
+    
+    if ("Justin Trudeau") {
+    System.out.println("Correct! Let's continue...")
+    score = (score + 1)
+        }
+        else {
+        System.out.println("Incorrect! Let's continue...")
+        }
+        
